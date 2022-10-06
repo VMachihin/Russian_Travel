@@ -1,0 +1,11 @@
+.card__descr {
+	margin: 0;
+	font-size: 18px;
+	line-height: 163%;
+	color: #FFFFFF;
+	margin-bottom: 26px;
+}
+
+.card__descr:last-child {
+	margin-bottom: 0;
+}

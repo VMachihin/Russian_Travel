@@ -1,0 +1,23 @@
+.cover__link {
+	max-width: 1184px;
+	min-height: 740px;
+	text-decoration: none;
+	margin: 92px auto 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: url('../../../images/cover__background.jpg') center center / cover no-repeat;
+	position: relative;
+}
+
+.cover__link:hover::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(34, 32, 32, 0.559);
+	z-index: 1;
+}
