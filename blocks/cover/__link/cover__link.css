@@ -21,3 +21,16 @@
 	background-color: rgba(34, 32, 32, 0.559);
 	z-index: 1;
 }
+
+@media (max-width: 1024px) {
+	.cover__link {
+		min-height: 640px;
+	}
+}
+
+@media (max-width: 768px) {
+	.cover__link {
+		min-height: 480px;
+		margin: 90px auto 0;
+	}
+}

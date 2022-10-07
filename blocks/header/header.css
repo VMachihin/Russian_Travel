@@ -3,6 +3,6 @@
 	justify-content: space-between;
 	align-items: center;
 	padding-top: 28px;
-	max-width: 1184px;
+	max-width: calc(100% - 96px);
 	margin: 0 auto;
 }

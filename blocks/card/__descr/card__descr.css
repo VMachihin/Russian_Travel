@@ -9,3 +9,9 @@
 .card__descr:last-child {
 	margin-bottom: 0;
 }
+
+@media (max-width: 768px) {
+	.card__descr {
+		font-size: 16px;
+	}
+}

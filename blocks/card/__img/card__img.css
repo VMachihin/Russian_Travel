@@ -1,4 +1,20 @@
 .card__img {
 	width: 460px;
+	object-fit: cover;
 	height: 460px;
+}
+
+@media (max-width: 1024px) {
+	.card__img {
+		width: 440px;
+		object-fit: cover;
+		height: 440px;
+	}
+}
+
+@media (max-width: 768px) {
+	.card__img {
+		width: 340px;
+		height: 340px;
+	}
 }
