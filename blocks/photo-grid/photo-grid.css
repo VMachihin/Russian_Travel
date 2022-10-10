@@ -3,31 +3,28 @@
 	grid-template-columns: repeat(auto-fill, 284px);
 	gap: 16px;
 	justify-content: center;
-	margin: 92px auto 0;
-	max-width: calc(100% - 95px);
+	margin: 92px 48px 0;
 }
 
 @media (max-width: 1024px) {
 	.photo-grid {
 		grid-template-columns: repeat(auto-fill, 300px);
-		gap: 14px;
+		gap: 13px;
 	}
 }
 
 @media (max-width: 768px) {
 	.photo-grid {
 		grid-template-columns: repeat(auto-fill, 352px);
-		max-width: calc(100% - 48px);
 		margin: 88px auto 0;
-		gap: 16px;
+		gap: 15px;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 400px) {
 	.photo-grid {
 		grid-template-columns: repeat(auto-fill, 288px);
-		max-width: 100%;
-		margin: 88px auto 0;
-		gap: 16px;
+		margin: 64px auto 0;
+		gap: 12px;
 	}
 }

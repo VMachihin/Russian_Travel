@@ -14,10 +14,11 @@
 		<div class="container">
 			<header class="header">
 				<img src="./images/logo/logo-header.svg" class="header__logo" alt="лого в шапке страницы">
-				<div class="language-wrp">
-					<a href="#" class="header__language-btn">Ru</a>
-					<a href="#" class="header__language-btn">En</a>
-				</div>
+				<ul class="header__language-wrp">
+					<li class="header__language-btn header__language-btn_active"><a class="header__language-link" href="#">Ru</a>
+					</li>
+					<li class="header__language-btn"><a class="header__language-link" href="#">En</a></li>
+				</ul>
 			</header>
 		</div>
 
@@ -40,15 +41,15 @@
 						— смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч
 						километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
 					<ul class="intro__list">
-						<li>Часовых поясов 11</li>
-						<li>Объектов природного наследия ЮНЕСКО 12</li>
-						<li>Объектов культурного наследия ЮНЕСКО 16</li>
-						<li>Природных заповедников 105</li>
-						<li>Аэропортов 241</li>
+						<li>Часовых поясов <span class="intro__list_other-fw">11</span></li>
+						<li>Объектов природного наследия ЮНЕСКО <span class="intro__list_other-fw">12</span></li>
+						<li>Объектов культурного наследия ЮНЕСКО <span class="intro__list_other-fw">16</span></li>
+						<li>Природных заповедников <span class="intro__list_other-fw">105</span></li>
+						<li>Аэропортов <span class="intro__list_other-fw">241</span></li>
 					</ul>
 				</section>
 
-				<figure class="photo-grid">
+				<section class="photo-grid">
 					<img src="./images/train_window.jpg" alt="окно поезда" class="photo-grid__img">
 					<img src="./images/mountains_clouds.jpg" alt="горы и облака" class="photo-grid__img">
 					<img src="./images/wolf_field.jpg" alt="волк забрался на стог сена" class="photo-grid__img">
@@ -61,7 +62,7 @@
 					<img src="./images/beautiful_mountains_3.jpg" alt="красивые горы" class="photo-grid__img">
 					<img src="./images/beach_by_sea_2.jpg" alt="пляж на берегу моря" class="photo-grid__img">
 					<img src="./images/mountains_in_fog.jpg" alt="горы в тумане" class="photo-grid__img">
-				</figure>
+				</section>
 
 				<section class="places">
 					<div class="places__cards">
@@ -157,8 +158,7 @@
 
 				<section class="cover">
 					<a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
-						<h2 class="cover__title">До Байкала «на
-							собаках»
+						<h2 class="cover__title">До&nbsp;Байкала &laquo;на собаках&raquo;
 						</h2>
 						<p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
 							электричках.</p>

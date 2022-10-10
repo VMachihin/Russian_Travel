@@ -6,6 +6,12 @@
 	max-width: 690px;
 }
 
+@media (max-width: 768px) {
+	.intro__text {
+		max-width: 720px;
+	}
+}
+
 @media (max-width: 320px) {
 	.intro__text {
 		max-width: 100%;
