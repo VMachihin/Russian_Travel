@@ -3,7 +3,7 @@
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: max-content max-content;
 	gap: 48px 40px;
-	width: calc(100% - 112px);
+	width: calc(100% - 193px);
 	margin: 0 auto 80px;
 }
 
@@ -20,6 +20,14 @@
 
 @media (max-width: 768px) {
 	.card {
-		width: 98%;
+		width: 100%;
+	}
+}
+
+@media (max-width: 600px) {
+	.card {
+		grid-template-columns: 1fr;
+		gap: 32px;
+		width: 100%;
 	}
 }

@@ -15,3 +15,9 @@
 		font-size: 16px;
 	}
 }
+
+@media (max-width: 320px) {
+	.card__descr {
+		padding: 0 16px;
+	}
+}

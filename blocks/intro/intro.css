@@ -13,3 +13,9 @@
 		padding-left: 24px;
 	}
 }
+
+@media (max-width: 768px) {
+	.intro {
+		padding: 0 16px;
+	}
+}

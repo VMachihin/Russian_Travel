@@ -34,3 +34,10 @@
 		margin: 90px auto 0;
 	}
 }
+
+@media (max-width: 360px) {
+	.cover__link {
+		min-height: 200px;
+		margin: 66px auto 0;
+	}
+}

@@ -9,3 +9,17 @@
 	text-decoration: none;
 	z-index: 5;
 }
+
+@media (max-width: 500px) {
+	.cover__title {
+		font-size: 63px;
+	}
+}
+
+@media (max-width: 320px) {
+	.cover__title {
+		font-size: 32px;
+		line-height: 35px;
+		margin: 33px 0 16px 0;
+	}
+}

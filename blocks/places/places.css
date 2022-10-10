@@ -9,3 +9,10 @@
 		padding: 0 3vw;
 	}
 }
+
+@media (max-width: 320px) {
+	.places {
+		margin-top: 64px;
+		padding: 0;
+	}
+}

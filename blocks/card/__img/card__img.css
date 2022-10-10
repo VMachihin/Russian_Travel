@@ -18,3 +18,9 @@
 		height: 340px;
 	}
 }
+
+@media (max-width: 360px) {
+	.card__img {
+		width: 100%;
+	}
+}

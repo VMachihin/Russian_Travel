@@ -4,3 +4,9 @@
 	line-height: 16px;
 	margin: 0 0 24px 0;
 }
+
+@media (max-width: 460px) {
+	.footer__copy {
+		margin: 48px 0 24px 0;
+	}
+}
