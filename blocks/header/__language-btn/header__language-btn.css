@@ -2,21 +2,8 @@
 	margin-right: 18px;
 	font-size: 24px;
 	line-height: 28px;
-	color: #ffffff;
-	transition: all 0.2s ease-in;
 }
 
 .header__language-btn:nth-child(2) {
 	margin-right: 0;
-}
-
-.header__language-btn:hover {
-	color: rgba(238, 238, 238, 0.805);
-}
-
-@media (max-width: 320px) {
-	.header__language-btn {
-		font-size: 18px;
-		line-height: 20px;
-	}
 }
