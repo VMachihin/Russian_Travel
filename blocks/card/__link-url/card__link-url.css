@@ -1,5 +1,5 @@
 .card__link-url {
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 22px;
 	text-decoration-line: underline;
 	color: #FFFFFF;
@@ -8,4 +8,10 @@
 
 .card__link-url:hover {
 	opacity: 0.8;
+}
+
+@media (max-width: 700px) {
+	.card__link-url {
+		font-size: 16px;
+	}
 }
