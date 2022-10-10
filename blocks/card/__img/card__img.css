@@ -19,7 +19,7 @@
 	}
 }
 
-@media (max-width: 360px) {
+@media (max-width: 390px) {
 	.card__img {
 		width: 100%;
 	}

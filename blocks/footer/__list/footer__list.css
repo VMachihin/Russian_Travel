@@ -5,7 +5,7 @@
 	display: flex;
 }
 
-@media (max-width: 485px) {
+@media (max-width: 500px) {
 	.footer__list {
 		flex-direction: column;
 	}
