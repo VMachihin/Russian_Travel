@@ -7,3 +7,5 @@
 2. Git.
 3. Grid.
 4. Flex-box.
+
+Ссылка на работу - https://vitotmb.github.io/russian-travel/index.html
