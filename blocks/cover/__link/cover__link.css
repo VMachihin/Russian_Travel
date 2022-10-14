@@ -21,7 +21,7 @@
 	background: #2A2C2F;
 	opacity: 0.3;
 	z-index: 1;
-	transition: all 0.4s ease-in-out;
+	transition: opacity 0.4s ease-in-out;
 }
 
 .cover__link:hover::before {
