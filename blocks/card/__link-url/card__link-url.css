@@ -4,14 +4,9 @@
 	text-decoration-line: underline;
 	color: #FFFFFF;
 	transition: opacity 0.2s ease-in;
+	cursor: pointer;
 }
 
 .card__link-url:hover {
 	opacity: 0.8;
-}
-
-@media (max-width: 700px) {
-	.card__link-url {
-		font-size: 16px;
-	}
 }

@@ -1,11 +1,10 @@
 .card {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: minmax(auto, 460px) minmax(auto, 484px);
 	grid-template-rows: max-content max-content;
 	gap: 48px 40px;
 	max-width: 984px;
-	margin-bottom: 80px;
-	padding-left: 139px;
+	margin: 0 48px 80px 139px;
 }
 
 .card:last-child {
@@ -14,15 +13,16 @@
 
 @media (max-width: 1024px) {
 	.card {
-		max-width: 984px;
+		grid-template-columns: minmax(auto, 440px) minmax(auto, 456px);
 		gap: 48px 24px;
-		padding: 0 48px;
+		margin: 0 48px 80px 48px;
 	}
 }
 
 @media (max-width: 768px) {
 	.card {
-		padding: 0;
+		grid-template-columns: minmax(auto, 340px) minmax(auto, 352px);
+		margin: 0 24px 73px 24px;
 	}
 }
 
@@ -35,6 +35,6 @@
 
 @media (max-width: 320px) {
 	.card {
-		margin-bottom: 50px;
+		margin: 0 0 50px 0;
 	}
 }
