@@ -8,4 +8,4 @@
 3. Grid.
 4. Flex-box.
 
-[Для просмотра работы, нажмите](https://vitotmb.github.io/russian-travel/index.html)
+[Путишествие по России](https://rus-travel.vitmach.ru)
